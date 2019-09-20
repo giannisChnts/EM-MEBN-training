@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" id="XML Catalog File (see http://www.oasis-open.org/committees/entity/spec-2001-08-06.html) - Created By Protege 4" prefer="public">
+<group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=1" prefer="public" xml:base="">
+<uri id="Automatically generated entry, Timestamp=1568972154953" name="http://www.pr-owl.org/pr-owl.owl" uri="MEBNMultimodalTsamikoTrainedexcl13.owl"/>
+<uri id="Automatically generated entry, Timestamp=1568972154953" name="http://www.pr-owl.org/pr-owl.owl" uri="MEBNMultimodalTsamikoUntrained.owl"/>
+<uri id="Automatically generated entry, Timestamp=1568972154953" name="http://www.pr-owl.org/pr-owl.owl" uri="Newexcl13.owl"/>
+<uri id="Automatically generated entry, Timestamp=1568972154953" name="http://www.pr-owl.org/pr-owl.owl" uri="Newexcl13Corrected.owl"/>
+<uri id="Automatically generated entry, Timestamp=1568972154953" name="http://www.pr-owl.org/pr-owl.owl" uri="results_20_9_2019.txtNewexcl1.owl"/>
+</group>
+</catalog>
