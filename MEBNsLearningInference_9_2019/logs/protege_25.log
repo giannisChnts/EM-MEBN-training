@@ -1,0 +1,9 @@
+2014.07.17 12:50:15.541 EEST INFO: *** SYSTEM START ***
+2014.07.17 12:50:16.024 EEST INFO: Loading triples -- ProtegeOWLParser.loadTriples()
+2014.07.17 12:50:16.498 EEST INFO: [ProtegeOWLParser] Completed triple loading after 395 ms -- ProtegeOWLParser.loadTriples()
+2014.07.17 12:50:16.528 EEST INFO: [TripleChangePostProcessor] Completed lists after 1 ms -- TripleChangePostProcessor.log()
+2014.07.17 12:50:16.533 EEST INFO: [TripleChangePostProcessor] Completed anonymous classes after 5 ms -- TripleChangePostProcessor.log()
+2014.07.17 12:50:16.534 EEST INFO: [TripleChangePostProcessor] Completed deprecated classes after 1 ms -- TripleChangePostProcessor.log()
+2014.07.17 12:50:16.549 EEST INFO: [TripleChangePostProcessor] Completed properties after 15 ms -- TripleChangePostProcessor.log()
+2014.07.17 12:50:16.556 EEST INFO: [TripleChangePostProcessor] Completed named classes after 7 ms -- TripleChangePostProcessor.log()
+2014.07.17 12:50:16.558 EEST INFO: ... Loading completed after 455 ms -- ProtegeOWLParser.loadTriples()

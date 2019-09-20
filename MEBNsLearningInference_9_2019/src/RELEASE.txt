@@ -1,0 +1,14 @@
+// List all versions and their changes here from most recent to least recent
+PROGNOS VERSION 1.0.0
+----------------------------
+FEATURE LIST		
+Number	Request ID	Summary
+1		1111111		Feature 1.
+2		2222222		Feature 2.
+3		3333333		Feature 3.
+
+BUG LIST		
+Number	Request ID	Summary
+1		1111111		Bug 1.
+2		2222222		Bug 2.
+3		3333333		Bug 3.

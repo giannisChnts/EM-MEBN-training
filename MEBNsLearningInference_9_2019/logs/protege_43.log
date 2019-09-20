@@ -1,0 +1,18 @@
+2014.07.17 16:14:01.507 EEST INFO: *** SYSTEM START ***
+2014.07.17 16:14:02.294 EEST INFO: Loading triples -- ProtegeOWLParser.loadTriples()
+2014.07.17 16:14:02.928 EEST INFO: [ProtegeOWLParser] Completed triple loading after 538 ms -- ProtegeOWLParser.loadTriples()
+2014.07.17 16:14:02.956 EEST INFO: [TripleChangePostProcessor] Completed lists after 0 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:14:02.961 EEST INFO: [TripleChangePostProcessor] Completed anonymous classes after 5 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:14:02.962 EEST INFO: [TripleChangePostProcessor] Completed deprecated classes after 0 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:14:03.014 EEST INFO: [TripleChangePostProcessor] Completed properties after 52 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:14:03.029 EEST INFO: [TripleChangePostProcessor] Completed named classes after 14 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:14:03.031 EEST INFO: ... Loading completed after 640 ms -- ProtegeOWLParser.loadTriples()
+2014.07.17 16:15:49.054 EEST INFO: *** SYSTEM START ***
+2014.07.17 16:15:49.725 EEST INFO: Loading triples -- ProtegeOWLParser.loadTriples()
+2014.07.17 16:15:50.513 EEST INFO: [ProtegeOWLParser] Completed triple loading after 686 ms -- ProtegeOWLParser.loadTriples()
+2014.07.17 16:15:50.557 EEST INFO: [TripleChangePostProcessor] Completed lists after 1 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:15:50.562 EEST INFO: [TripleChangePostProcessor] Completed anonymous classes after 5 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:15:50.564 EEST INFO: [TripleChangePostProcessor] Completed deprecated classes after 1 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:15:50.578 EEST INFO: [TripleChangePostProcessor] Completed properties after 14 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:15:50.623 EEST INFO: [TripleChangePostProcessor] Completed named classes after 45 ms -- TripleChangePostProcessor.log()
+2014.07.17 16:15:50.625 EEST INFO: ... Loading completed after 798 ms -- ProtegeOWLParser.loadTriples()

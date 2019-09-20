@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 1.0" "http://jpf.sourceforge.net/plugin_1_0.dtd">
+<plugin id="edu.gmu.seor.prognos.unbbayesplugin.cps" version="1.0.0">
+    <requires>
+        <import plugin-id="unbbayes.util.extension.core" plugin-version="4.11.5"/>
+    </requires>
+    <runtime>
+        <library id="cpsCls" path="classes/" type="code">
+            <export prefix="*" />
+        </library>
+        <library id="cps" path="prognos.unbbayesplugin.cps-1.0.0" type="code">
+            <export prefix="*" />
+        </library> 
+        <library id="antlr-2.7.7" path="lib/antlr-2.7.7.jar" type="code">
+            <export prefix="*" />
+        </library> 
+        <library id="antlr-3.2" path="lib/antlr-3.2.jar" type="code">
+            <export prefix="*" />
+        </library> 
+        <library id="antlr-runtime-3.2" path="lib/antlr-runtime-3.2.jar" type="code">
+            <export prefix="*" />
+        </library> 
+        <library type="resources" path="icons/" id="cps_icons" />
+    </runtime>
+    
+    <extension plugin-id="unbbayes.util.extension.core" point-id="ProbabilityFunctionPanel" id="cps_ProbabilisticNode">
+        <parameter id="class" value="unbbayes.prs.bn.ProbabilisticNode" />
+        <parameter id="name" value="CPSL" />
+        <parameter id="panelBuilder" value= "edu.gmu.seor.prognos.unbbayesplugin.cps.gui.extension.CPSPanelBuilder" />
+        <parameter id="description" value="Edit conditional probability function using scripts" />
+		<parameter id="icon" value="new_script.png" />
+    </extension>    
+    
+    <extension plugin-id="unbbayes.util.extension.core" point-id="InferenceAlgorithm" id="DMPAlgorithm">
+        <parameter id="class" value="edu.gmu.seor.prognos.unbbayesplugin.cps.dmp.DMPOptionPanel" />
+        <!--
+        <parameter id="compilationPanelBuilder" value="edu.gmu.seor.prognos.unbbayesplugin.cps.dmp.DMPCompilationPanelBuilder" />
+        -->
+    </extension>
+    
+    <extension plugin-id="unbbayes.util.extension.core" point-id="PluginNode" id="ProbabilisticNodePluginStub">
+        <parameter id="class" value="edu.gmu.seor.prognos.unbbayesplugin.gmmNode.GmmNodePluginStub" />
+        <parameter id="shapeClass" value="edu.gmu.seor.prognos.unbbayesplugin.gmmNode.UShapeGMMNode" />
+        <parameter id="name" value="ContinuousNode" />
+        <parameter id="panelBuilder" value= "edu.gmu.seor.prognos.unbbayesplugin.gmmNode.GmmStubPanelBuilder" />
+        <parameter id="description" value="Continuous node plug in" />
+		<parameter id="icon" value="icon_stub.gif" />
+		<parameter id="cursor" value="cursor_stub.gif" /> 
+    </extension> 
+</plugin>
