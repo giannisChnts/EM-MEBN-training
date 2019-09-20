@@ -1,0 +1,1 @@
+These data include the MEBN model for training using Tsamiko .plm files as training data (examples). Make sure, as soon as you save them in your file system, to change the file paths in the directories mentioned in the main method of the MEBN code (lying at the root  folder).
