@@ -11,4 +11,4 @@ The MEBReasoning.Training method is used with arguments explained as follows:
 3) MEBNfile: the file (folder/filename) of the MEBN to be trained,
 4) PLMfolder: the folder with the PLM files
 5) MEBNoutputfolder: the folder in which we want the MEBN output file to saved
-6) and 7) queryvariablename and ovinstances: the variable name (resident node) to be queried and a specific logical argument(s) of it (ordinary instance(s)). That are used subsequently in a query to retrieve all the resident nodes of the MEBN which we want to "learn" their probabilities with the EM algorithm. Thus, please be sure that you choose the correct in this context variable and ordinary var. instance(s) in this context.
+6) and 7. queryvariablename and ovinstances: the variable name (resident node) to be queried and a specific logical argument(s) of it (ordinary instance(s)). That are used subsequently in a query to retrieve all the resident nodes of the MEBN which we want to "learn" their probabilities with the EM algorithm. Thus, please be sure that you choose the correct in this context variable and ordinary var. instance(s) in this context.
