@@ -2,7 +2,7 @@ This Java - Eclipse project implements the learning and inference MEBN algorithm
 
 To use it add as external jars ALL the jar files residing in the JarFiles folder (see the folder one step above).
 
-The class used to implement the MEBN learning algorithm and the inference is the "MEBNReasoning" class. See the Main class how to use the two methods for learning and inference, respectively.
+The class used to implement the MEBN learning algorithm and the inference is the "MEBNReasoning" class. See the Main class for how to use the two methods for learning and inference, respectively.
 
 The MEBReasoning.Training method is used with arguments explained as follows:
 
