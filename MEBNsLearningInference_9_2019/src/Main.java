@@ -23,7 +23,7 @@ public class Main {
 	    String  PLMfolder="C:/Users/gchantas/Desktop/MEBN_training/TsamikoPLMs";
 	    String MEBNoutput="C:/Users/gchantas/Desktop/MEBN_training/MEBNmodel/TsamikoTrained";
 	    	    
-	    String queryvariablename="step";
+	    String queryvariablename="";
 	    
 
 	    //Salsa
@@ -35,7 +35,7 @@ public class Main {
 		int generalEMIter=5;//Should be >1
 		int FileNumber=1;//File to be excluded from the dataset (for cross validation). Should be >=0 and max=number of files found in the folder PLMfolder
 		
-		ovinstances[0]="T1";
+		//ovinstances[0]="T1";
 	    //for(generalIter=11;generalIter<=FileNumber+1;generalIter++)
 	   mr = new MEBNReasoning();
 	    //Tsamiko MEBN inference method. Run this to see results of the inference. MEBN file and test data file are defined in the method
@@ -56,7 +56,7 @@ public class Main {
 	   
 		   String mebnfiletrained = new String( MEBNoutput+ "Newexcl"+FileNumber+".ubf"   );
 
-		   mr.MEBNCorrection(FileNumber,mebnfiletrained,PLMfolder,MEBNoutput,queryvariablename,ovinstances);
+		   mr.MEBNCorrection(FileNumber,mebnfiletrained,PLMfolder,MEBNoutput);
 	   }
 	}
 }
